@@ -1,5 +1,3 @@
-package com.fupinyou.algorithms;
-
 public class Fibonacci {
 	  /**
      * @param n: an integer

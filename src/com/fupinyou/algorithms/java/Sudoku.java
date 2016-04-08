@@ -1,17 +1,15 @@
-package com.fupinyou.algorithms;
-
 import java.util.HashSet;
 import java.util.Set;
 class Sudoku {
     /**
-      * ÇëÅĞ¶¨Ò»¸öÊı¶ÀÊÇ·ñÓĞĞ§¡£¸ÃÊı¶À¿ÉÄÜÖ»Ìî³äÁË²¿·ÖÊı×Ö£¬ÆäÖĞÈ±ÉÙµÄÊı×ÖÓÃ . ±íÊ¾¡£
+      * åˆ¤æ–­æ˜¯å¦æ˜¯æ•°ç‹¬
       * @param board: the board
         @return: wether the Sudoku is valid
       */
     public static boolean isValidSudoku(char[][] board) {
-        Set<Character> hs0=new HashSet<Character>();
-        Set<Character> hs1=new HashSet<Character>();
-        Set<Character> hs2=new HashSet<Character>();
+        Set<Character> hs0=new HashSet<>();
+        Set<Character> hs1=new HashSet<>();
+        Set<Character> hs2=new HashSet<>();
         int n0=0;
         for(int i=0;i<9;i++){
             for(int j=0;j<9;j++){
@@ -22,7 +20,7 @@ class Sudoku {
                  }
             }
             if(hs0.size()!=(10-n0)){
-            	System.out.println("ÔÚµÚÒ»¸öforÖĞ    £º    "+hs0.size());
+            	System.out.println("ç¬¬ä¸€ä¸ªforå¾ªç¯ä¸­    "+hs0.size());
                 return false;}
                 
                 hs0.clear();
@@ -41,7 +39,7 @@ class Sudoku {
                  }
             }
             if(hs1.size()!=(10-n1)){
-            	System.out.println("ÔÚµÚ¶ş¸öforÖĞ    £º    "+hs1.size());
+            	System.out.println("ç¬¬äºŒä¸ªforå¾ªç¯ä¸­    "+hs1.size());
                  return false;}
                  
                  hs1.clear();
@@ -62,7 +60,7 @@ class Sudoku {
                                 }
                             }                                   
                  if(hs2.size()!=(10-n2)){
-                	 System.out.println("ÔÚµÚÈı¸öforÖĞ    £º    "+hs2.size());
+                	 System.out.println("ç¬¬ä¸‰ä¸ªforå¾ªç¯ä¸­    "+hs2.size());
                      return false;
                  }                 
                  hs2.clear();
