@@ -14,7 +14,6 @@ public class AddBinary {
         int pb=b.length()-1;
         int carries=0;
         String result="";
-        char ch='0';
         while (pb>=0){
             int sum=(int)(a.charAt(pa)-'0')+(int)(b.charAt(pb)-'0')+carries;
             result=String.valueOf(sum%2)+result;
