@@ -1,5 +1,6 @@
 /**
  * Created by fupinyou on 2016/4/8.
+ * 删除链表中等于给定值val的所有节点。
  */
 public class RemoveLinkedlistElements {
     public static class ListNode{

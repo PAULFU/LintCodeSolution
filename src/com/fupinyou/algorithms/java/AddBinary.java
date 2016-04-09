@@ -1,5 +1,6 @@
 /**
  * Created by fupinyou on 2016/4/8.
+ * 给定两个二进制字符串，返回他们的和（用二进制表示）。
  */
 public class AddBinary {
     public static String addbinary(String a,String b){

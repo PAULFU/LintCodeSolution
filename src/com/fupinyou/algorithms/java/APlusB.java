@@ -1,5 +1,6 @@
 /**
  * Created by fupinyou on 2016/4/8.
+ * 给出两个整数a和b, 求他们的和, 但不能使用 + 等数学运算符。
  */
 public class APlusB {
     public static int aplusb(int a,int b){
