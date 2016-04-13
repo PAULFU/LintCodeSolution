@@ -13,7 +13,6 @@ public class CompareString {
         for(int i=0;i<26;i++){
             count[i]=0;
         }
-
         for (int i=0;i<A.length();i++){
             count[A.charAt(i)-'A']++;
         }
