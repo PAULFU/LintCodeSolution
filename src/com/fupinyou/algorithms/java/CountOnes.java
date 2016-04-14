@@ -1,4 +1,6 @@
 /**
+ * 二进制中有多少个1，比如8的二进制数是1000，
+ * 有1个1。
  * Created by fupinyou on 2016/4/14.
  */
 public class CountOnes {
