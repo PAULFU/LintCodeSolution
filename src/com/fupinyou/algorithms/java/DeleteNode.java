@@ -1,4 +1,5 @@
 /**
+ * O(1)时间复杂度删除某个结点
  * Created by fupinyou on 2016/4/17.
  */
 public class DeleteNode {
