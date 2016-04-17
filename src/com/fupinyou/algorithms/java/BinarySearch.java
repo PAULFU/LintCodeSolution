@@ -8,19 +8,19 @@ public class BinarySearch {
         if (nums == null || nums.length == 0) {
             return -1;
         }
-        int start=0,stop=nums.length;
-        int index=(start+stop)/2;
+        int start=0,end=nums.length;
+        int index=(start+end)/2;
         while (nums[index]!=target){
             if (nums[index]>target){
-                stop=index-1;
-                index=(start+stop)/2;
+                end=index-1;
+                index=(start+end)/2;
             }
             else{
                 start=index+1;
-                index=(start+stop)/2;
+                index=(start+end)/2;
             }
 
-            if(start==stop&&nums[index]!=target) return -1;
+            if(start==end&&nums[index]!=target) return -1;
         }
         if(index!=0){
             while (index!=0 && nums[index]==target){
