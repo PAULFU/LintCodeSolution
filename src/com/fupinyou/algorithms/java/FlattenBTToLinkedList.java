@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 
 /**
+ * 将一颗二叉树压缩成一个链表，
+ * 即所有节点只有右孩子
  * Created by fupinyou on 2016/4/18.
  */
 public class FlattenBTToLinkedList {
