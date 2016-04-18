@@ -8,7 +8,7 @@ public class BinarySearch {
         if (nums == null || nums.length == 0) {
             return -1;
         }
-        int start=0,end=nums.length;
+        int start=0,end=nums.length-1;
         int index=(start+end)/2;
         while (nums[index]!=target){
             if (nums[index]>target){
