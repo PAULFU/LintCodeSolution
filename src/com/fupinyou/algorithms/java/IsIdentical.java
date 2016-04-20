@@ -1,4 +1,7 @@
 /**
+ * 检查两棵二叉树是否等价。等价的意思是说，
+ * 首先两棵二叉树必须拥有相同的结构，
+ * 并且每个对应位置上的节点上的数都相等。
  * Created by fupinyou on 2016/4/20.
  */
 public class IsIdentical {
