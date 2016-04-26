@@ -4,7 +4,7 @@
  */
 public class MaximumSubarray {
 
-    public int maximumSubarray(int[] nums){
+    public int maximumSubarray(int[] nums){  //贪心算法
         if (nums==null || nums.length==0) return 0;
         int max=Integer.MIN_VALUE,sum=0;
         for(int i=0;i<nums.length;i++){
