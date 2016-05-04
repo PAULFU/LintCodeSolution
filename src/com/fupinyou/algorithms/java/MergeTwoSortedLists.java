@@ -1,4 +1,6 @@
 /**
+ * 将两个链表中的值按顺序排列好返回
+ * 一个包含所有两个链表元素的心链表
  * Created by fupinyou on 2016/5/4.
  */
 public class MergeTwoSortedLists {

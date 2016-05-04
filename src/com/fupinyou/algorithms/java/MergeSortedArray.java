@@ -1,4 +1,6 @@
 /**
+ * 将数组B按顺序合并到数组A，假设数组A
+ * 有足够的空间可以存放数组B的所有元素
  * Created by fupinyou on 2016/5/4.
  */
 public class MergeSortedArray {

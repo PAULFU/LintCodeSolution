@@ -1,4 +1,5 @@
 /**
+ * 给出两个数组A.B，将它们排序后返回
  * Created by fupinyou on 2016/5/4.
  */
 public class MergeSortedArrayII {
