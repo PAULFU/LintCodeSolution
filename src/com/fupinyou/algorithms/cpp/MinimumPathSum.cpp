@@ -31,4 +31,3 @@ int MinimumPathSum::minPathSum(vector<vector<int> > &grid)
 
 	return f[grid.size() - 1][grid[0].size() - 1];
 }
-
