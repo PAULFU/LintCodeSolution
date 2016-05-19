@@ -25,15 +25,8 @@ class Solution:
         while n > 0:
             head = head.pre
             n -= 1
-        return head.val
+        return head
         pass
 
-node_1 = ListNode(1)
-node_2 = ListNode(2, node_1)
-node_3 = ListNode(3, node_2)
-node_4 = ListNode(4, node_3)
-node_5 = ListNode(5, node_4)
-solution = Solution()
-print str(solution.nth_to_last(node_5, 2))
 
 
