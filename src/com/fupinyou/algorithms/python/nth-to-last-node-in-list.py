@@ -13,7 +13,7 @@ class Solution:
     def __init__(self):
         pass
 
-    def nth_to_last(self, head, n):
+    def nthToLast(self, head, n):
         if head is None or n < 1:
             return None
         cur = head.next
