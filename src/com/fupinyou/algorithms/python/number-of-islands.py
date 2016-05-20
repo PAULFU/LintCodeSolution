@@ -1,30 +1,3 @@
-# class Solution:
-#     # @param {boolean[][]} grid a boolean 2D matrix
-#     # @return {int} an integer
-#         def check(x, y):
-#             if x >= 0 and x < m and y >= 0 and y < n and grid[x][y] and visit[x][y] == False:
-#                 return True
-#
-#         def dfs(x, y):
-#             nbrow = [1, 0, -1, 0]
-#             nbcol = [0, 1, 0, -1]
-#             for k in range(4):
-#                 newx = x + nbrow[k]
-#                 newy = y + nbcol[k]
-#                 if check(newx, newy):
-#                     visit[newx][newy] = True
-#                     dfs(newx, newy)
-#
-#         count = 0
-#         for row in range(m):
-#             for col in range(n):
-#                 if check(row, col):
-#                     visit[row][col] = True
-#                     dfs(row, col)
-#                     count += 1
-#         return count
-
-
 class Solution:
 
     def numIslands(self,grid):
