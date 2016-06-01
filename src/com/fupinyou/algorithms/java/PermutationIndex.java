@@ -4,10 +4,6 @@ import java.util.ArrayList;
  * Created by fupinyou on 2016/5/31.
  */
 public class PermutationIndex {
-    /**
-     * @param A an integer array
-     * @return a long integer
-     */
     public static long permutationIndex(int[] A) {
         ArrayList<Integer> arrayList=new ArrayList<>();
         int size=A.length;
